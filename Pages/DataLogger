@@ -1,0 +1,43 @@
+using System;
+using System.IO;
+
+public static class DataLogger
+{
+    private static readonly string LogFilePath = "CompanyDataLog.txt"; // File path
+
+    public static void LogData(string data)
+    {
+        try
+        {
+            using (StreamWriter writer = new StreamWriter(LogFilePath, append: true))
+            {
+                writer.WriteLine($"{DateTime.Now}: {data}");
+            }
+            Console.WriteLine("[INFO] Data logged successfully.");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[ERROR] Failed to log data: {ex.Message}");
+        }
+    }
+
+    // 🔹 Read data function
+    public static string ReadLogData()
+    {
+        try
+        {
+            if (File.Exists(LogFilePath))
+            {
+                return File.ReadAllText(LogFilePath);
+            }
+            else
+            {
+                return "⚠️ Log file not found!";
+            }
+        }
+        catch (Exception ex)
+        {
+            return $"[ERROR] Failed to read log file: {ex.Message}";
+        }
+    }
+}

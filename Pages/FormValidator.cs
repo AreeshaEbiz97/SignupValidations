@@ -99,9 +99,4 @@ namespace PlaywrightDotnetProject.Utils
         }
 
     }
-
-
-
-
-
 }

@@ -1,0 +1,8 @@
+4/9/2025 11:34:49 AM: [Parent Company] Name: Dickens Group, Phone: 3463647457, City: Lake Verda
+4/9/2025 11:34:49 AM: [Parent Admin] Name: Simeon Kessler, Email: Chase.Trantow@yahoo.com
+4/9/2025 11:34:56 AM: [Subsidiary] Name: Price, Runolfsdottir and Klocko, Phone: 2690205988, City: Mantefurt
+4/9/2025 11:34:56 AM: [Subsidiary Admin] Name: Verona Becker, Email: Erik_Schaden41@gmail.com
+4/9/2025 11:57:26 AM: [Parent Company] Name: Robel, Robel and Mann, Phone: 8039690796, City: Schaeferfurt
+4/9/2025 11:57:26 AM: [Parent Admin] Name: Franco Bailey, Email: Krystal_Beer45@yahoo.com
+4/9/2025 11:57:32 AM: [Subsidiary] Name: Rau, Kerluke and Auer, Phone: 6468520260, City: Lake Grace
+4/9/2025 11:57:32 AM: [Subsidiary Admin] Name: Floyd Rodriguez, Email: Mittie77@yahoo.com

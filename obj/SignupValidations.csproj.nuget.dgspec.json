@@ -1,36 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Playwright\\SignupValidations\\SignupValidations.csproj": {}
+    "C:\\New folder\\SignupValidations\\SignupValidations.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Playwright\\SignupValidations\\SignupValidations.csproj": {
+    "C:\\New folder\\SignupValidations\\SignupValidations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Playwright\\SignupValidations\\SignupValidations.csproj",
+        "projectUniqueName": "C:\\New folder\\SignupValidations\\SignupValidations.csproj",
         "projectName": "SignupValidations",
-        "projectPath": "C:\\Projects\\Playwright\\SignupValidations\\SignupValidations.csproj",
-        "packagesPath": "C:\\Users\\Areesha.Raees\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Playwright\\SignupValidations\\obj\\",
+        "projectPath": "C:\\New folder\\SignupValidations\\SignupValidations.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\New folder\\SignupValidations\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Areesha.Raees\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -43,12 +37,11 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Bogus": {
               "target": "Package",
@@ -107,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.104/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.310/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
